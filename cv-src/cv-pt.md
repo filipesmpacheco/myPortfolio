@@ -3,7 +3,7 @@
 **Desenvolvedor Full Stack**
 
 📞 +55 (85) 98198-7272 · ✉️ filipesmpacheco@gmail.com · 📍 Eusébio, Ceará — Brasil
-💼 linkedin.com/in/filipe-pacheco-551731a8 · 💻 github.com/filipesmpacheco
+💼 linkedin.com/in/filipe-pacheco-551731a8 · 💻 github.com/filipesmpacheco · 🌐 filipesmpacheco.github.io/myPortfolio
 
 ## Resumo profissional
 

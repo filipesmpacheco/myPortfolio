@@ -14,6 +14,8 @@ defmodule Filipe.Pacheco do
 end
 ```
 
+> 🌐 **Ao vivo / Live:** [filipesmpacheco.github.io/myPortfolio](https://filipesmpacheco.github.io/myPortfolio/)
+
 > 🇺🇸 _English version below_ — just like the portfolio itself, this README speaks both languages.
 
 ## 🇧🇷 Sobre este projeto
@@ -31,8 +33,8 @@ Este é o meu portfólio pessoal: uma página única, bilíngue (**PT/EN com swi
 ### Como rodar
 
 ```bash
-git clone https://github.com/filipesmpacheco/myPersonalPortfolio.git
-cd myPersonalPortfolio
+git clone https://github.com/filipesmpacheco/myPortfolio.git
+cd myPortfolio
 open index.html   # ou simplesmente arraste para o navegador
 ```
 
@@ -68,8 +70,8 @@ This is my personal portfolio: a single, bilingual page (**PT/EN with a dynamic 
 ### 🚀 Getting started
 
 ```bash
-git clone https://github.com/filipesmpacheco/myPersonalPortfolio.git
-cd myPersonalPortfolio
+git clone https://github.com/filipesmpacheco/myPortfolio.git
+cd myPortfolio
 open index.html   # or just drag it into your browser
 ```
 
