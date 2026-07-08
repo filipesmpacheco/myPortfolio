@@ -13,7 +13,7 @@ Perfil **analítico, colaborativo e voltado para a resolução de problemas**: g
 
 ## Habilidades técnicas
 
-Angular · TypeScript · JavaScript · Ionic · Node.js · Elixir · Phoenix/LiveView · React · Swift · PostgreSQL · MySQL · SQL · HTML · CSS · APIs REST · Git
+Angular · TypeScript · JavaScript · Ionic · Node.js · Elixir · Phoenix/LiveView · React · React Native · Swift · PostgreSQL · MySQL · SQL · HTML · CSS · APIs REST · Git
 
 ## Habilidades interpessoais
 

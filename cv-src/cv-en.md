@@ -13,7 +13,7 @@ Full Stack Developer experienced in building web and mobile applications with **
 
 ## Technical skills
 
-Angular · TypeScript · JavaScript · Ionic · Node.js · Elixir · Phoenix/LiveView · React · Swift · PostgreSQL · MySQL · SQL · HTML · CSS · REST APIs · Git
+Angular · TypeScript · JavaScript · Ionic · Node.js · Elixir · Phoenix/LiveView · React · React Native · Swift · PostgreSQL · MySQL · SQL · HTML · CSS · REST APIs · Git
 
 ## Interpersonal skills
 
