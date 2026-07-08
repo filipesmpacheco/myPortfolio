@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Filipe Pacheco — Full Stack Developer | Angular, Ionic, TypeScript, Node.js, Elixir/Phoenix, PostgreSQL" />
+  <meta name="author" content="Filipe Souto Maior Pacheco" />
+  <title>Filipe Pacheco — Desenvolvedor Full Stack</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="container nav" aria-label="Main navigation">
+      <a class="logo" href="#top">&lt;FP /&gt;</a>
+      <ul class="nav-links">
+        <li><a href="#about" data-i18n="nav.about">Sobre</a></li>
+        <li><a href="#skills" data-i18n="nav.skills">Habilidades</a></li>
+        <li><a href="#experience" data-i18n="nav.experience">Experiência</a></li>
+        <li><a href="#projects" data-i18n="nav.projects">Projetos</a></li>
+        <li><a href="#education" data-i18n="nav.education">Formação</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">Contato</a></li>
+      </ul>
+      <div class="lang-switch" role="group" aria-label="Language switch">
+        <button type="button" data-lang="pt" aria-pressed="true">PT</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- ============ HERO ============ -->
+    <section class="hero container">
+      <p class="hero-greeting"><span data-i18n="hero.greeting">Olá, eu sou</span></p>
+      <h1 class="hero-name">Filipe Pacheco</h1>
+      <h2 class="hero-role" data-i18n="hero.role">Desenvolvedor Full Stack</h2>
+      <p class="hero-tagline" data-i18n="hero.tagline">
+        Apaixonado por tecnologia e por transformar problemas complexos em soluções elegantes.
+        Construo aplicações web e mobile que geram valor real para pessoas e negócios.
+      </p>
+      <p class="hero-location">📍 <span data-i18n="hero.location">Eusébio, Ceará — Brasil</span></p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#contact" data-i18n="hero.cta.contact">Fale comigo</a>
+        <a class="btn btn-outline" href="#contact" data-i18n="hero.cta.cv">Baixar currículo</a>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="container section">
+      <h2 class="section-title" data-i18n="about.title">Sobre mim</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p data-i18n="about.p1"></p>
+          <p data-i18n="about.p2"></p>
+          <p data-i18n="about.p3"></p>
+        </div>
+        <div class="about-highlights">
+          <article class="highlight-card">
+            <h3 data-i18n="about.highlight1.title">Perfil analítico</h3>
+            <p data-i18n="about.highlight1.text"></p>
+          </article>
+          <article class="highlight-card">
+            <h3 data-i18n="about.highlight2.title">Autodisciplina e resiliência</h3>
+            <p data-i18n="about.highlight2.text"></p>
+          </article>
+          <article class="highlight-card">
+            <h3 data-i18n="about.highlight3.title">Colaboração internacional</h3>
+            <p data-i18n="about.highlight3.text"></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section id="skills" class="container section">
+      <h2 class="section-title" data-i18n="skills.title">Habilidades</h2>
+
+      <h3 class="subsection-title" data-i18n="skills.tech.title">Técnicas</h3>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h4 data-i18n="skills.frontend">Frontend</h4>
+          <ul class="tags">
+            <li>Angular</li><li>TypeScript</li><li>JavaScript</li>
+            <li>HTML</li><li>CSS</li><li>React</li><li>Phoenix LiveView</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4 data-i18n="skills.backend">Backend</h4>
+          <ul class="tags">
+            <li>Elixir</li><li>Phoenix</li><li>Node.js</li>
+            <li>PostgreSQL</li><li>MySQL</li><li>REST APIs</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4 data-i18n="skills.mobile">Mobile</h4>
+          <ul class="tags">
+            <li>Ionic</li><li>Swift</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4 data-i18n="skills.data">Dados &amp; IA</h4>
+          <ul class="tags">
+            <li>SQL</li><li>Data Analysis</li><li>AI (pós-graduação)</li>
+          </ul>
+        </div>
+      </div>
+
+      <h3 class="subsection-title" data-i18n="skills.soft.title">Interpessoais</h3>
+      <div class="soft-skills-grid">
+        <article class="soft-card">
+          <h4 data-i18n="skills.soft.1.title">Resolução de problemas</h4>
+          <p data-i18n="skills.soft.1.text"></p>
+        </article>
+        <article class="soft-card">
+          <h4 data-i18n="skills.soft.2.title">Comunicação em inglês</h4>
+          <p data-i18n="skills.soft.2.text"></p>
+        </article>
+        <article class="soft-card">
+          <h4 data-i18n="skills.soft.3.title">Autodisciplina</h4>
+          <p data-i18n="skills.soft.3.text"></p>
+        </article>
+        <article class="soft-card">
+          <h4 data-i18n="skills.soft.4.title">Iniciativa individual</h4>
+          <p data-i18n="skills.soft.4.text"></p>
+        </article>
+        <article class="soft-card">
+          <h4 data-i18n="skills.soft.5.title">Estabilidade emocional</h4>
+          <p data-i18n="skills.soft.5.text"></p>
+        </article>
+        <article class="soft-card">
+          <h4 data-i18n="skills.soft.6.title">Colaboração</h4>
+          <p data-i18n="skills.soft.6.text"></p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section id="experience" class="container section">
+      <h2 class="section-title" data-i18n="experience.title">Experiência profissional</h2>
+      <ol class="timeline">
+        <li class="timeline-item">
+          <div class="timeline-marker current" aria-hidden="true"></div>
+          <div class="timeline-content">
+            <span class="badge" data-i18n="experience.current">Atual</span>
+            <h3 data-i18n="exp.audo2.role">Desenvolvedor Full Stack</h3>
+            <p class="timeline-meta">
+              <span data-i18n="exp.audo2.company">AUDO — Tecnologia e Saúde</span> ·
+              <time data-i18n="exp.audo2.period">Fev 2025 — Presente</time>
+            </p>
+            <ul>
+              <li data-i18n="exp.audo2.d1"></li>
+              <li data-i18n="exp.audo2.d2"></li>
+              <li data-i18n="exp.audo2.d3"></li>
+              <li data-i18n="exp.audo2.d4"></li>
+              <li data-i18n="exp.audo2.d5"></li>
+            </ul>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <div class="timeline-content">
+            <h3 data-i18n="exp.audo1.role">Estagiário de Desenvolvimento Backend</h3>
+            <p class="timeline-meta">
+              <span data-i18n="exp.audo1.company">AUDO — Tecnologia e Saúde</span> ·
+              <time data-i18n="exp.audo1.period">Ago 2024 — Fev 2025</time>
+            </p>
+            <ul>
+              <li data-i18n="exp.audo1.d1"></li>
+              <li data-i18n="exp.audo1.d2"></li>
+            </ul>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <div class="timeline-content">
+            <h3 data-i18n="exp.blog.role">Desenvolvedor Frontend Web</h3>
+            <p class="timeline-meta">
+              <span data-i18n="exp.blog.company">Blog do Bernardino</span> ·
+              <time data-i18n="exp.blog.period">Abr 2020 — Abr 2021</time>
+            </p>
+            <ul>
+              <li data-i18n="exp.blog.d1"></li>
+            </ul>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <div class="timeline-content">
+            <h3 data-i18n="exp.mm.role">Organização de Dados &amp; Eventos</h3>
+            <p class="timeline-meta">
+              <span data-i18n="exp.mm.company">MasterMind Entretenimento — São Paulo</span> ·
+              <time data-i18n="exp.mm.period">Set 2019 — Abr 2020</time>
+            </p>
+            <ul>
+              <li data-i18n="exp.mm.d1"></li>
+              <li data-i18n="exp.mm.d2"></li>
+              <li data-i18n="exp.mm.d3"></li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section id="projects" class="container section">
+      <h2 class="section-title" data-i18n="projects.title">Projetos em destaque</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <span class="badge" data-i18n="proj.health.tag">Profissional</span>
+          <h3 data-i18n="proj.health.title">Audo</h3>
+          <p data-i18n="proj.health.text"></p>
+          <ul class="tags">
+            <li>Angular</li><li>Ionic</li><li>Elixir/Phoenix</li><li>PostgreSQL</li>
+          </ul>
+        </article>
+        <article class="project-card">
+          <span class="badge" data-i18n="proj.tindoria.tag">Projeto acadêmico</span>
+          <h3 data-i18n="proj.tindoria.title">Tindoria</h3>
+          <p data-i18n="proj.tindoria.text"></p>
+          <ul class="tags">
+            <li>Arquitetura</li><li>Full Stack</li><li>Integração</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section id="education" class="container section">
+      <h2 class="section-title" data-i18n="education.title">Formação e certificações</h2>
+      <div class="education-grid">
+        <div class="education-list">
+          <article class="edu-item">
+            <h3 data-i18n="edu.cesar.degree">Pós-graduação em Análise de Dados e Inteligência Artificial</h3>
+            <p class="edu-meta">
+              <span data-i18n="edu.cesar.school">CESAR School</span> ·
+              <time data-i18n="edu.cesar.period">Jan 2025 — Mar 2026 (concluída)</time>
+            </p>
+          </article>
+          <article class="edu-item">
+            <h3 data-i18n="edu.unifor.degree">Análise e Desenvolvimento de Sistemas</h3>
+            <p class="edu-meta">
+              <span data-i18n="edu.unifor.school">Universidade de Fortaleza (UNIFOR)</span> ·
+              <time data-i18n="edu.unifor.period">Fev 2022 — Jul 2024</time>
+            </p>
+          </article>
+          <article class="edu-item">
+            <h3 data-i18n="edu.unopar.degree">Ciências Aeronáuticas</h3>
+            <p class="edu-meta">
+              <span data-i18n="edu.unopar.school">Universidade Norte do Paraná (UNOPAR)</span> ·
+              <time data-i18n="edu.unopar.period">Jul 2012 — Jul 2015</time>
+            </p>
+          </article>
+        </div>
+        <div class="cert-list">
+          <h3 data-i18n="cert.title">Certificações</h3>
+          <article class="cert-item">
+            <h4 data-i18n="cert.agile.name">Agile Explorer — IBM</h4>
+            <p data-i18n="cert.agile.detail"></p>
+          </article>
+          <article class="cert-item">
+            <h4 data-i18n="cert.intl.name">Representante Internacional — MasterMind</h4>
+            <p data-i18n="cert.intl.detail"></p>
+          </article>
+        </div>
+      </div>
+
+      <div class="intl-banner">
+        <h3 data-i18n="intl.title">Experiência internacional</h3>
+        <p data-i18n="intl.text"></p>
+        <ul class="tags flags">
+          <li>🇨🇳 <span data-i18n="intl.china">China</span></li>
+          <li>🇮🇳 <span data-i18n="intl.india">Índia</span></li>
+          <li>🇹🇹 <span data-i18n="intl.tt">Trinidad e Tobago</span></li>
+          <li>🇺🇸 <span data-i18n="intl.usa">Estados Unidos</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="container section contact">
+      <h2 class="section-title" data-i18n="contact.title">Vamos conversar?</h2>
+      <p data-i18n="contact.text"></p>
+      <div class="contact-grid">
+        <a class="contact-card" href="mailto:filipesmpacheco@gmail.com">
+          <span class="contact-label" data-i18n="contact.email">E-mail</span>
+          <span class="contact-value">filipesmpacheco@gmail.com</span>
+        </a>
+        <a class="contact-card" href="https://www.linkedin.com/in/filipe-pacheco-551731a8/" target="_blank" rel="noopener noreferrer">
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-value">/filipe-pacheco</span>
+        </a>
+        <a class="contact-card" href="https://github.com/filipesmpacheco" target="_blank" rel="noopener noreferrer">
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">/filipesmpacheco</span>
+        </a>
+      </div>
+      <div class="cv-downloads">
+        <h3 data-i18n="contact.cv.title">Currículo</h3>
+        <a class="btn btn-outline" href="cv/cv-filipe-pacheco-pt.pdf" download data-i18n="contact.cv.pt">Português (PDF)</a>
+        <a class="btn btn-outline" href="cv/cv-filipe-pacheco-en.pdf" download data-i18n="contact.cv.en">Inglês (PDF)</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="container" data-i18n="footer.text">Desenvolvido com dedicação por Filipe Pacheco.</p>
+  </footer>
+
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
