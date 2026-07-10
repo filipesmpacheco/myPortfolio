@@ -86,5 +86,3 @@ That's it. Zero `npm install`. 😄
 | ✉️ Email    | [filipesmpacheco@gmail.com](mailto:filipesmpacheco@gmail.com)                   |
 | 💼 LinkedIn | [/filipe-pacheco](https://www.linkedin.com/in/filipe-pacheco-551731a8/)        |
 | 📍 Location | Eusébio, Ceará — Brazil                                                         |
-
-_Made with care, curiosity and a good amount of coffee._ ☕
